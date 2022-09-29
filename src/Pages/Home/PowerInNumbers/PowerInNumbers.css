@@ -1,0 +1,76 @@
+.powerInNumber-section-os .powerInNumber-data-os p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 33px;
+    text-align: center;
+    padding-bottom: 1.5rem;
+    color: #fff;
+    width: 70%;
+    margin: 0 auto;
+}
+.powerInNumber-section-os .powerInNumber-data-os p span {
+    font-weight: 700;
+    font-size: 25px;
+}
+.powerInNumber-section-os .powerInNumber-data-os h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+    text-align: center;
+    color: #fff;
+    width: 70%;
+    margin: 0 auto;
+}
+.powerInNumber-section-os .powerInNumber-data-os {
+    padding: 3rem 0;
+    background-image: url(../../../Images/power-in-number.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 13px;
+}
+
+.powerInNumber-section-os {
+    background: #F4FDFF;
+}
+
+@media screen and (max-width:768px) {
+    .powerInNumber-section-os .powerInNumber-data-os p {
+        font-size: 16px;
+        line-height: 20px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .powerInNumber-section-os .powerInNumber-data-os p span {
+        font-size: 16px;
+    }
+    .powerInNumber-section-os .powerInNumber-data-os h4 {
+        font-size: 16px;
+        line-height: 20px;
+        width: 90%;
+    }
+}
+@media screen and (max-width:576px) {
+    .powerInNumber-section-os .powerInNumber-data-os p {
+        font-size: 12px;
+        line-height: 16px;
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 1rem;
+    }
+    .powerInNumber-section-os .powerInNumber-data-os h4 {
+        font-size: 12px;
+        line-height: 16px;
+        width: 100%;
+    }
+    .powerInNumber-section-os .powerInNumber-data-os {
+        padding: 2rem 12px;
+    }
+    .powerInNumber-section-os .powerInNumber-data-os p span {
+        font-size: 12px;
+    }
+}

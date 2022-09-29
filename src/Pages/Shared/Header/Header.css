@@ -1,0 +1,219 @@
+.header-section-os .nav-data-os {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3rem 0 1rem;
+}
+
+.header-section-os .nav-brand-os a span {
+    color: #5AE1F9;
+}
+
+.header-section-os .nav-brand-os a {
+    display: flex;
+    align-items: center;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 43px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-section-os .nav-links-os a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    text-align: center;
+    color: #D7F9FE;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.header-section-os {
+    background: #1E2959;
+    box-shadow: 0px 4px 19px rgb(0 0 0 / 17%);
+}
+
+.header-section-os .nav-links-os {
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    flex-wrap: wrap;
+}
+
+.header-section-os .user-login-buttons-os {
+    border: 1px solid #5AE1F9;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.header-section-os .user-login-buttons-os a {
+    min-width: 110px;
+    height: 40px;
+}
+
+.header-section-os .user-login-buttons-os .user-login-os {
+    border-radius: 20px 0 0 20px;
+}
+
+.header-section-os .user-login-buttons-os .user-register-os {
+    border-radius: 0 20px 20px 0;
+}
+
+.header-section-os .user-login-buttons-os .user-login-os:hover {
+    background: #5AE1F9;
+    color: #000;
+}
+
+.header-section-os .user-login-buttons-os .user-register-os:hover {
+    background: #5AE1F9;
+    border-radius: 0 20px 20px 0;
+    color: #1E2959;
+}
+
+.header-section-os .user-register-os-active {
+    background: #5AE1F9;
+    color: #1E2959 !important;
+}
+
+/* Mobile Navbar */
+.mobile-nav-os {
+    margin: 0;
+    padding: 1.5rem 1rem;
+    list-style: none;
+    background: #1E2959;
+}
+
+.mobile-nav-os li a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    text-align: center;
+    color: #D7F9FE;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.mobile-nav-os li a:hover {
+    color: #fff;
+}
+
+.header-section-mobile-os .Toggle-mobile-button>div {
+    width: 12px;
+    height: 2px;
+    background: #000;
+}
+
+.header-section-mobile-os .mobile-toggle-line-os-2 {
+    margin: 4px 0;
+}
+
+.header-section-mobile-os .Toggle-mobile-button>div {
+    width: 32px;
+    height: 4px;
+    background: #000;
+    border-radius: 2px;
+}
+
+.header-section-mobile-os .Toggle-mobile-button {
+    padding: 1rem;
+    cursor: pointer;
+    width: max-content;
+}
+
+.header-section-mobile-os .mobile-nav-os li {
+    padding-bottom: 0.5rem;
+}
+
+.header-section-mobile-os .mobile-nav-os li:last-child {
+    padding: 0;
+}
+
+.header-section-mobile-os .mobile-nav-os .nav-brand-os {
+    padding-bottom: 8px;
+}
+
+.header-section-mobile-os .nav-brand-os a span {
+    color: #5AE1F9;
+}
+
+.header-section-mobile-os .nav-brand-os a {
+    display: flex;
+    align-items: center;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 43px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-section-mobile-os {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+}
+.header-section-mobile-os .mobile-header-data-os {
+    position: relative;
+}
+.header-section-mobile-os .nav-data-mobile-os {
+    background: #fff;
+}
+
+.header-section-mobile-os .mobile-nav-os {
+    margin: 0;
+    padding: 1.5rem 1rem;
+    list-style: none;
+    background: #1E2959;
+    transform: translateX(-101%);
+    transition: 0.5s;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.header-section-mobile-os .mobile-nav-os-active {
+    transform: translateX(0%);
+}
+
+@media  screen and (min-width:768px) {
+    .header-section-mobile-os {
+        display: none;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .header-section-os {
+        display: none;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .header-section-mobile-os .nav-brand-os a {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .mobile-nav-os li a {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .header-section-mobile-os .Toggle-mobile-button>div {
+        width: 24px;
+        height: 3px;
+    }
+}

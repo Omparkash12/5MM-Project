@@ -1,0 +1,36 @@
+.main-heading-os h1 {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+.main-heading-os {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding-bottom: 2rem;
+}
+.main-heading-os div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width:768px) {
+    .main-heading-os h1 {
+        font-size: 38px !important;
+        line-height: 42px !important;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .main-heading-os h1 {
+        font-size: 24px !important;
+        line-height: 28px !important;
+    }
+    .main-heading-os {
+        padding-bottom: 1.5rem;
+    }
+}

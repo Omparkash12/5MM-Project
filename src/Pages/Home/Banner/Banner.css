@@ -1,0 +1,13 @@
+.Banner-section-os .banner-data-os img {
+  max-width: 100%;
+  width: 100%;
+}
+.Banner-section-os .banner-data-os {
+  background: #F4FDFF;
+}
+
+@media screen and (max-width:767px) {
+  .Banner-section-os .banner-data-os {
+    padding-top: 3rem;
+  }
+}
