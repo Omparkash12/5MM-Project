@@ -3,7 +3,7 @@
   width: 100%;
 }
 .Banner-section-os .banner-data-os {
-  background: #F4FDFF;
+  display: flex;
 }
 
 @media screen and (max-width:767px) {

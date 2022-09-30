@@ -71,7 +71,7 @@ const Benefits = () => {
                             <div className='moduler-tick-image-os'>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
                                     <rect width="40" height="40" rx="7" fill="#5AE1F9" />
-                                    <path d="M11 20.5L19 26.5L29 13" stroke="#1E2959" stroke-width="2" stroke-linecap="round" />
+                                    <path d="M11 20.5L19 26.5L29 13" stroke="#1E2959" strokeWidth="2" stroke-linecap="round" />
                                 </svg>
                             </div>
                             <div className='moduler-tickWith-text-os'>
@@ -83,7 +83,7 @@ const Benefits = () => {
                             <div className='moduler-tick-image-os'>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
                                     <rect width="40" height="40" rx="7" fill="#5AE1F9" />
-                                    <path d="M11 20.5L19 26.5L29 13" stroke="#1E2959" stroke-width="2" stroke-linecap="round" />
+                                    <path d="M11 20.5L19 26.5L29 13" stroke="#1E2959" strokeWidth="2" stroke-linecap="round" />
                                 </svg>
                             </div>
                             <div className='moduler-tickWith-text-os'>
@@ -103,7 +103,7 @@ const Benefits = () => {
                             <div className='moduler-tick-image-os'>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
                                     <rect width="40" height="40" rx="7" fill="#5AE1F9" />
-                                    <path d="M11 20.5L19 26.5L29 13" stroke="#1E2959" stroke-width="2" stroke-linecap="round" />
+                                    <path d="M11 20.5L19 26.5L29 13" stroke="#1E2959" strokeWidth="2" stroke-linecap="round" />
                                 </svg>
                             </div>
                             <div className='moduler-tickWith-text-os'>
@@ -115,7 +115,7 @@ const Benefits = () => {
                             <div className='moduler-tick-image-os'>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
                                     <rect width="40" height="40" rx="7" fill="#5AE1F9" />
-                                    <path d="M11 20.5L19 26.5L29 13" stroke="#1E2959" stroke-width="2" stroke-linecap="round" />
+                                    <path d="M11 20.5L19 26.5L29 13" stroke="#1E2959" strokeWidth="2" stroke-linecap="round" />
                                 </svg>
                             </div>
                             <div className='moduler-tickWith-text-os'>
