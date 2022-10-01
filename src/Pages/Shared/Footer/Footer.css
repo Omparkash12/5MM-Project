@@ -1,6 +1,6 @@
 .footer-section-os .footer-data-os {
     display: flex;
-    padding: 3rem 0;
+    padding: 3rem 4rem;
 }
 
 .footer-section-os .footer-data-os>div {
@@ -93,6 +93,10 @@
         line-height: 42px;
         margin: 0 0 1.5rem;
     }
+    .footer-section-os .footer-data-os {
+        display: flex;
+        padding: 3rem 0;
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -140,6 +144,8 @@
         font-size: 12px;
         line-height: 16px;
     }
+    .footer-section-os .footer-data-os-2 p {
+        font-size: 14px;
+        line-height: 20px;
+    }
 }
-
-@media screen and (max-width:576px) {}

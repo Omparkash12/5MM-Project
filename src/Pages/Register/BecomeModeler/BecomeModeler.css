@@ -1,0 +1,110 @@
+.become-modeler-section-os {
+    padding-top: 8rem;
+}
+.become-modeler-section-os .become-modeler-data-os h3 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 31px;
+    color: #000000;
+    margin: 0;
+    padding-bottom: 1.5rem;
+}
+.become-modeler-section-os .become-modeler-data-os p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+    margin: 0 auto;
+    width: 65%;
+}
+
+.become-modeler-section-os .become-modeler-data-os {
+    background-image: url(../../../Images/become-modeler-bg.png);
+    background-repeat: no-repeat;
+    background-size: 960px 100%;
+    background-position: center;
+    text-align: center;
+    border-radius: 9px;
+    width: 100%;
+    /* max-width: 960px; */
+    /* margin: 0 auto; */
+    padding: 2rem 0;
+}
+
+.become-modeler-section-os .become-modeler-heading-os h2 {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 36px;
+    text-align: center;
+    color: #4A4A4A;
+    margin: 0;
+    padding: 8px 0;
+}
+.become-modeler-section-os .become-modeler-heading-os {
+    background: #F9F9F9;
+    margin-bottom: 1rem;
+}
+
+.yoyo {
+    color: red;
+}
+
+@media screen and (max-width:768px) {
+    .become-modeler-section-os .become-modeler-heading-os h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .become-modeler-section-os .become-modeler-data-os h3 {
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+        margin: 0;
+        padding-bottom: 1.5rem;
+    }
+    .become-modeler-section-os .become-modeler-data-os {
+        background-size: 100% 100%;
+    }
+    .become-modeler-section-os .become-modeler-data-os p {
+        font-size: 16px;
+        line-height: 20px;
+        width: 80%;
+    }    
+}
+
+@media screen and (max-width:767px) {
+    .become-modeler-section-os {
+        padding-top: 4rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .become-modeler-section-os .become-modeler-heading-os h2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .become-modeler-section-os {
+        padding-top: 4rem;
+    }
+    .become-modeler-section-os .become-modeler-data-os h3 {
+        font-size: 18px;
+        line-height: 24px;
+        padding-bottom: 1rem;
+    }
+    .become-modeler-section-os .become-modeler-data-os p {
+        font-size: 13px;
+        line-height: 16px;
+        width: 96%;
+    }
+    .become-modeler-section-os .become-modeler-data-os {
+        padding: 1.5rem 0;
+    }
+}
