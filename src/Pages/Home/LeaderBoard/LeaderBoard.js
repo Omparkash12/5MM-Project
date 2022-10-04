@@ -9,6 +9,9 @@ import heading_line from '../../../Images/heading-line.svg';
 
 const LeaderBoard = () => {
     const heading_style = {
+        fontFamily: 'Arimo',
+        fontStyle: 'normal',
+        fontWeight: '700',
         color: '#222D5F',
         fontSize: '41px',
         lineHight: '47px'

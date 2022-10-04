@@ -1,10 +1,11 @@
 import React from 'react';
 import './Pages.css';
-import Home from '../Home/Home/Home';
-import { Routes, Route } from "react-router-dom";
+// import Home from '../Home/Home/Home';
+// import { Routes, Route } from "react-router-dom";
 import Header from '../Shared/Header/Header';
 import Footer from '../Shared/Footer/Footer';
-import Register from '../Register/Register/Register';
+// import Register from '../Register/Register/Register';
+import AfterRegistration from '../AfterRegistration/AfterRegistration/AfterRegistration';
 
 const Pages = () => {
   return (
@@ -12,10 +13,11 @@ const Pages = () => {
       {/* <Home /> */}
       {/* <Register /> */}
       <Header />
-      <Routes>
+      {/* <Routes>
         <Route exact path='/' element={<Home />} />
         <Route exact path='/register' element={<Register />} />
-      </Routes>
+      </Routes> */}
+      <AfterRegistration />
       <Footer />
     </div>
   )

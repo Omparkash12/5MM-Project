@@ -1,0 +1,99 @@
+.afterRegistration-data-button-os {
+    width: 185px;
+    padding: 2px;
+    background: linear-gradient(181.31deg, #1F2A5B 1.01%, #5AE1F9 141.74%);
+    border-radius: 4px;
+    margin: 0 auto;
+}
+
+.afterRegistration-banner-os {
+    background-image: url(../../../Images/afterReg-banner-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.afterRegistration-data-heading-os {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.afterRegistration-data-os {
+    padding: 6rem 0;
+    margin-top: 4.5rem;
+}
+
+.afterRegistration-bannerGraph-os {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: #fff;
+    border-radius: 6px;
+    padding: 1.5rem 0;
+    box-shadow: 0px 4px 23px rgb(0 0 0 / 14%);
+    position: absolute;
+    width: 100%;
+    max-width: 1024px;
+    bottom: -105px;
+    left: 23%;
+}
+
+.afterRegistration-bannerGraph-data-os-1 {
+    width: 30%;
+}
+
+.afterRegistration-bannerGraph-data-os-1 p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    color: #000000;
+    margin: 0;
+}
+
+.afterRegistration-bannerGraph-data-os-1 h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 50px;
+    letter-spacing: -0.03em;
+    color: #1E2959;
+    margin: 0;
+}
+
+@media only screen and (max-width:1440px) {
+    .afterRegistration-bannerGraph-os {
+        left: 14%;
+    }
+
+}
+
+@media only screen and (max-width:1024px) {
+    .afterRegistration-bannerGraph-os {
+        left: 6%;
+        width: 100%;
+        max-width: 900px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .afterRegistration-bannerGraph-data-os-1 h3 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .afterRegistration-bannerGraph-data-os-1 p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+}
+
+@media only screen and (max-width:1024px) {
+}

@@ -11,6 +11,9 @@ import heading_line from '../../../Images/heading-line.svg';
 
 const Benefits = () => {
     const heading_style = {
+        fontFamily: 'Arimo',
+        fontStyle: 'normal',
+        fontWeight: '700',
         color: '#1E2959',
         fontSize: '46px',
         lineHeight: '53px'

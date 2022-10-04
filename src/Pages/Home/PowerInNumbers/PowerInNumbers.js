@@ -4,6 +4,9 @@ import './PowerInNumbers.css';
 
 const PowerInNumbers = () => {
     const heading_style = {
+        fontFamily: 'Arimo',
+        fontStyle: 'normal',
+        fontWeight: '700',
         color: '#FCFEFF',
         fontSize: '41px',
         lineHight: '47px'

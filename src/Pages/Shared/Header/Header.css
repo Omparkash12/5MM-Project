@@ -47,6 +47,7 @@
     position: fixed;
     z-index: 11;
     width: 100%;
+    top: 0;
 }
 
 .header-section-os .nav-links-os {
