@@ -3,7 +3,7 @@
     padding: 2px;
     background: linear-gradient(181.31deg, #1F2A5B 1.01%, #5AE1F9 141.74%);
     border-radius: 4px;
-    margin: 0 auto;
+    margin: 0 auto 2.5rem;
 }
 
 .afterRegistration-banner-os {
@@ -12,6 +12,7 @@
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+    margin-top: 4.5rem;
 }
 
 .afterRegistration-data-heading-os {
@@ -21,9 +22,7 @@
 
 .afterRegistration-data-os {
     padding: 6rem 0;
-    margin-top: 4.5rem;
 }
-
 .afterRegistration-bannerGraph-os {
     display: flex;
     align-items: center;
@@ -33,11 +32,9 @@
     border-radius: 6px;
     padding: 1.5rem 0;
     box-shadow: 0px 4px 23px rgb(0 0 0 / 14%);
-    position: absolute;
     width: 100%;
     max-width: 1024px;
-    bottom: -105px;
-    left: 23%;
+    margin: 0 auto -12rem;
 }
 
 .afterRegistration-bannerGraph-data-os-1 {
@@ -67,33 +64,56 @@
 }
 
 @media only screen and (max-width:1440px) {
-    .afterRegistration-bannerGraph-os {
-        left: 14%;
-    }
 
 }
 
 @media only screen and (max-width:1024px) {
     .afterRegistration-bannerGraph-os {
-        left: 6%;
         width: 100%;
-        max-width: 900px;
+        max-width: 880px;
     }
 }
 
-@media only screen and (max-width:991px) {
+@media only screen and (max-width:768px) {
     .afterRegistration-bannerGraph-data-os-1 h3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .afterRegistration-bannerGraph-data-os-1 p {
         font-size: 20px;
         line-height: 24px;
     }
-    .afterRegistration-bannerGraph-data-os-1 p {
-        font-size: 16px;
-        line-height: 20px;
+    .afterRegistration-bannerGraph-os {
+        margin: 0 auto -11rem;
+    }
+    .afterRegistration-data-heading-os {
+        width: 100%;
+        margin: 0 auto;
     }
 }
 
-@media only screen and (max-width:1024px) {
-}
-
-@media only screen and (max-width:1024px) {
+@media only screen and (max-width:576px) {
+    .afterRegistration-banner-os {
+        margin-top: 3rem;
+    }
+    .afterRegistration-data-os {
+        padding: 4rem 0;
+    }
+    .afterRegistration-bannerGraph-data-os-1 h3 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .afterRegistration-bannerGraph-data-os-1 p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .afterRegistration-bannerGraph-os {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto -8rem;
+    }
+    .afterRegistration-data-button-os {
+        width: 150px;
+        margin: 0 auto 2rem;
+    }
 }

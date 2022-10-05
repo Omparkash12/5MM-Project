@@ -65,6 +65,11 @@
     opacity: 0.9;
 }
 
+.YourOwnBetting-section-os .user-register-os-active {
+    background: #5AE1F9 !important;
+    color: #1E2959 !important;
+}
+
 @media screen and (max-width:768px) {
     .YourOwnBetting-section-os .YourOwnBetting-data-os {
         display: flex;
@@ -84,7 +89,7 @@
         width: 100%;
     }
     .YourOwnBetting-section-os .YourOwnBetting-data-os-2 img {
-        max-width: 350px;
+        max-width: 300px;
     }
 }
 

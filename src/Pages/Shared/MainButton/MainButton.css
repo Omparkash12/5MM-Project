@@ -6,3 +6,11 @@
 .main-button-os a:hover {
     opacity: 0.9;
 }
+
+@media screen and (max-width:576px) {
+    .main-button-os a {
+        font-size: 16px !important;
+        line-height: 20px !important;
+        height: 40px !important;
+    }    
+}

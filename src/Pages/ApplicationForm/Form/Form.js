@@ -1,12 +1,9 @@
 import React from 'react';
 import InputField from '../../Shared/InputField/InputField';
-// import MainButton from '../../Shared/MainButton/MainButton';
-import './RegisterForm.css';
+import './Form.css';
 
-// Images
-// import registerIcon from '../../../Images/register-btn-icon.svg';
 
-const RegisterForm = () => {
+const Form = () => {
     // const buttonStyle = {
     //     maxWidth: '245px',
     //     width: '100%',
@@ -36,33 +33,32 @@ const RegisterForm = () => {
                 <form className='registerForm-all-data-os'>
                     <div className='registerForm-data-os'>
                         <div>
-                            <InputField inputTitle='Name' inputRequired='*' inputType='text' />
+                            <InputField inputTitle='Name' inputRequired='*' inputType='text' placeholder='' />
                         </div>
                         <div>
-                            <InputField inputTitle='Types of Model' inputRequired='*' inputType='text' />
+                            <InputField inputTitle='Types of Model' inputRequired='*' inputType='text' placeholder='' />
                         </div>
                         <div>
-                            <InputField inputTitle='Email' inputRequired='*' inputType='email' />
+                            <InputField inputTitle='Email' inputRequired='*' inputType='email' placeholder='' />
                         </div>
                         <div>
-                            <InputField inputTitle='Which sport does your model have the biggest edge in' inputRequired='*' inputType='text' />
+                            <InputField inputTitle='Which sport does your model have the biggest edge in' inputRequired='*' inputType='text' placeholder='' />
                         </div>
                         <div>
-                            <InputField inputTitle='Phone Number' inputRequired='*' inputType='number' />
+                            <InputField inputTitle='Phone Number' inputRequired='*' inputType='number' placeholder='' />
                         </div>
                         <div>
-                            <InputField inputTitle='Years of experience creating betting models' inputRequired='*' inputType='text' />
+                            <InputField inputTitle='Years of experience creating betting models' inputRequired='*' inputType='text' placeholder='' />
                         </div>
                         <div>
-                            <InputField inputTitle='Sports You Have Created A Model For' inputRequired='*' inputType='text' />
+                            <InputField inputTitle='Sports You Have Created A Model For' inputRequired='*' inputType='text' placeholder='' />
                         </div>
                         <div>
-                            <InputField inputTitle='Do you use Python, R, and/or Excel to create models?' inputRequired='*' inputType='text' />
+                            <InputField inputTitle='Do you use Python, R, and/or Excel to create models?' inputRequired='*' inputType='text' placeholder='' />
                         </div>
                     </div>
                     <div className='register-button-os'>
-                        {/* <MainButton linkAddress='#/' ButtonStyle={buttonStyle} leftIcon={registerIcon} buttonImageStyle='' buttonTitle='Register' /> */}
-                        <button type=''>
+                        <button type='submit'>
                             <span>
                                 <svg width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M14.4148 12.3658H5.45505C2.44714 12.3658 0 14.8812 0 17.973V21.2123H19.87V17.973C19.8699 14.8812 17.4227 12.3658 14.4148 12.3658ZM18.686 19.9954H1.18379V17.9731C1.18379 15.5523 3.09985 13.5828 5.45497 13.5828H14.4148C16.7699 13.5828 18.6859 15.5523 18.6859 17.9731L18.686 19.9954Z" fill="#FEFFFF" />
@@ -78,4 +74,4 @@ const RegisterForm = () => {
     )
 }
 
-export default RegisterForm;
+export default Form;

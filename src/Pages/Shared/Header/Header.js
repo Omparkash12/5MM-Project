@@ -17,7 +17,7 @@ const Header = () => {
     }
 
 
-    // Login and Register button js starts
+    // Login and Register button toggle js starts
     function toggleLoginButton() {
         const toggleLoginButton = document.getElementsByClassName('user-login-os');
         for (const element of toggleLoginButton) {
@@ -29,24 +29,24 @@ const Header = () => {
             element.classList.remove('user-register-os-active');
         }
     }
-    // Login and Register button js ends
+    // Login and Register button toggle js ends
 
-    // Mobile Register button js starts   
+    // Mobile Register button popup js starts   
     function mobileRegisterButton() {
-        const mobileRegisterButton = document.getElementsByClassName('registration-popup-section-os');
-        for (const element of mobileRegisterButton) {
-            element.classList.add('user-register-os-registerForm-show');
-        }
-        const mobileRegisterButton1 = document.getElementsByClassName('registration-popup-section-os');
-        for (const element of mobileRegisterButton1) {
-            element.classList.remove('user-register-os-registerForm-hide');
-        }
+        // const mobileRegisterButton = document.getElementsByClassName('registration-popup-section-os');
+        // for (const element of mobileRegisterButton) {
+        //     element.classList.add('user-register-os-registerForm-show');
+        // }
+        // const mobileRegisterButton1 = document.getElementsByClassName('registration-popup-section-os');
+        // for (const element of mobileRegisterButton1) {
+        //     element.classList.remove('user-register-os-registerForm-hide');
+        // }
 
     }
-    // Mobile Register button js ends
+    // Mobile Register button popup js ends
 
 
-    // Register button js starts   
+    // Register button popup js starts   
     function toggleRegisterButton() {
         const toggleRegisterButton = document.getElementsByClassName('user-register-os');
         for (const element of toggleRegisterButton) {
@@ -58,17 +58,16 @@ const Header = () => {
             element.classList.remove('user-register-os-active');
         }
 
-        const toggleRegisterButton3 = document.getElementsByClassName('registration-popup-section-os');
-        for (const element of toggleRegisterButton3) {
-            element.classList.add('user-register-os-registerForm-show');
-        }
-        const toggleRegisterButton4 = document.getElementsByClassName('registration-popup-section-os');
-        for (const element of toggleRegisterButton4) {
-            element.classList.remove('user-register-os-registerForm-hide');
-        }
-
+        // const toggleRegisterButton3 = document.getElementsByClassName('registration-popup-section-os');
+        // for (const element of toggleRegisterButton3) {
+        //     element.classList.add('user-register-os-registerForm-show');
+        // }
+        // const toggleRegisterButton4 = document.getElementsByClassName('registration-popup-section-os');
+        // for (const element of toggleRegisterButton4) {
+        //     element.classList.remove('user-register-os-registerForm-hide');
+        // }
     }
-    // Register button js ends
+    // Register button popup js ends
 
 
     // Registeration Cross js starts
@@ -96,6 +95,7 @@ const Header = () => {
 
     // Popup js starts
     function registerClick1() {
+        // onclick 1st Image background added js starts
         const secretElements = document.getElementsByClassName('model-image-os-1');
         for (const element of secretElements) {
             element.classList.add('model-image-os-active');
@@ -104,6 +104,8 @@ const Header = () => {
         for (const element of secretElements1) {
             element.classList.remove('model-image-os-active');
         }
+        // onclick 1st Image background added js ends
+
 
         // add border to outer1 div starts
         const secretElements2 = document.getElementsByClassName('model-choice-data-os-1');
@@ -115,8 +117,19 @@ const Header = () => {
             element.classList.remove('model-image-os-active1');
         }
         // add border to outer1 div ends
+
+        // onclick of different popup option show different Next button starts
+        const modelOption1 = document.querySelector('.popup-next-btn-os-1');
+        modelOption1.style.display = "block";
+
+        const modelOption2 = document.querySelector('.popup-next-btn-os-2');
+        modelOption2.style.display = "none";
+        // onclick of different popup option show different Next button ends
+
     }
+
     function registerClick2() {
+        // onclick 2nd Image background added js starts
         const secretElements = document.getElementsByClassName('model-image-os-2');
         for (const element of secretElements) {
             element.classList.add('model-image-os-active');
@@ -125,6 +138,8 @@ const Header = () => {
         for (const element of secretElements1) {
             element.classList.remove('model-image-os-active');
         }
+        // onclick 2nd Image background added js ends
+
 
         // add border to outer2 div starts
         const secretElements2 = document.getElementsByClassName('model-choice-data-os-2');
@@ -137,25 +152,35 @@ const Header = () => {
         }
         // add border to outer2 div ends
 
+        // onclick of different popup option show different Next button starts
+        const modelOption2 = document.querySelector('.popup-next-btn-os-2');
+        modelOption2.style.display = "block";
+
+        const modelOption1 = document.querySelector('.popup-next-btn-os-1');
+        modelOption1.style.display = "none";
+        // onclick of different popup option show different Next button ends
+
     }
     // Popup js ends
 
 
-    // Next button clicked and Popup remove js starts removePopupClick
-
-
+    // Next button clicked and Popup remove js starts
     function removePopupClick() {
         const removePopupClick = document.getElementsByClassName('registration-popup-section-os');
         for (const element of removePopupClick) {
             element.classList.add('user-register-os-registerForm-hide');
         }
     }
-
     // Next button clicked and Popup remove js ends
+
 
 
     //onload function starts
     window.onload = function () {
+        // onclick of different popup option show different Next button starts
+        // const modelOption1 = document.querySelector('.popup-next-btn-os-2');
+        // modelOption1.style.display = "none";
+        // onclick of different popup option show different Next button ends
     }
     //onload function ends
 
@@ -180,6 +205,11 @@ const Header = () => {
         }
         // add border to outer1 div load ends
 
+        //(onload select 1st) onclick of different popup option show different Next button starts
+        const modelOption1 = document.querySelector('.popup-next-btn-os-2');
+        modelOption1.style.display = "none";
+        //(onload select 1st) onclick of different popup option show different Next button ends
+
 
     }, [])
 
@@ -188,6 +218,8 @@ const Header = () => {
 
     return (
         <>
+
+            {/* Dsktop Navbar starts */}
             <section className='header-section-os'>
                 <div className="container-os">
                     <div className="nav-data-os">
@@ -206,6 +238,8 @@ const Header = () => {
                     </div>
                 </div>
             </section>
+            {/* Dsktop Navbar ends */}
+
 
 
             {/* Mobile Navbar */}
@@ -234,7 +268,7 @@ const Header = () => {
             </section>
 
 
-            {/* Popup */}
+            {/* Popup starts */}
             <section id='registration-popup-section-os' className='registration-popup-section-os'>
                 <div className='popup-all-data-os'>
                     <div className='popup-overlay-os'></div>
@@ -304,7 +338,7 @@ const Header = () => {
                                         </svg>
                                     </div>
                                     <div className='model-text-os'>
-                                        <p className=''>I have a Model</p>
+                                        <p className=''>I Want To Build Model</p>
                                         <div className='model-right-arrow'>
                                             {/* <svg width="23" height="12" viewBox="0 0 23 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M23 6L13 0.226497V11.7735L23 6ZM0 7H14V5H0V7Z" fill="#1E2959" />
@@ -315,19 +349,33 @@ const Header = () => {
                             </div>
 
                             <div className='popup-next-btn-os'>
-                                <Link onClick={removePopupClick} to='/register'>
-                                    <div>
-                                        <svg width="28" height="24" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M27.0607 13.0607C27.6464 12.4749 27.6464 11.5251 27.0607 10.9393L17.5147 1.3934C16.9289 0.807612 15.9792 0.807612 15.3934 1.3934C14.8076 1.97918 14.8076 2.92893 15.3934 3.51472L23.8787 12L15.3934 20.4853C14.8076 21.0711 14.8076 22.0208 15.3934 22.6066C15.9792 23.1924 16.9289 23.1924 17.5147 22.6066L27.0607 13.0607ZM0 13.5H26V10.5H0V13.5Z" fill="#5AE1F9" />
-                                        </svg>
-                                    </div>
-                                    NEXT
-                                </Link>
+                                <div className='popup-next-btn-os-1'>
+                                    <Link onClick={removePopupClick} to='/applicationform'>
+                                        <div>
+                                            <svg width="28" height="24" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M27.0607 13.0607C27.6464 12.4749 27.6464 11.5251 27.0607 10.9393L17.5147 1.3934C16.9289 0.807612 15.9792 0.807612 15.3934 1.3934C14.8076 1.97918 14.8076 2.92893 15.3934 3.51472L23.8787 12L15.3934 20.4853C14.8076 21.0711 14.8076 22.0208 15.3934 22.6066C15.9792 23.1924 16.9289 23.1924 17.5147 22.6066L27.0607 13.0607ZM0 13.5H26V10.5H0V13.5Z" fill="#5AE1F9" />
+                                            </svg>
+                                        </div>
+                                        NEXT
+                                    </Link>
+                                </div>
+                                <div className='popup-next-btn-os-2'>
+                                    <Link onClick={removePopupClick} to='/applicationform1'>
+                                        <div>
+                                            <svg width="28" height="24" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M27.0607 13.0607C27.6464 12.4749 27.6464 11.5251 27.0607 10.9393L17.5147 1.3934C16.9289 0.807612 15.9792 0.807612 15.3934 1.3934C14.8076 1.97918 14.8076 2.92893 15.3934 3.51472L23.8787 12L15.3934 20.4853C14.8076 21.0711 14.8076 22.0208 15.3934 22.6066C15.9792 23.1924 16.9289 23.1924 17.5147 22.6066L27.0607 13.0607ZM0 13.5H26V10.5H0V13.5Z" fill="#5AE1F9" />
+                                            </svg>
+                                        </div>
+                                        NEXT
+                                    </Link>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+            {/* Popup ends */}
+
         </>
     )
 }

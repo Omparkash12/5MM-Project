@@ -14,8 +14,8 @@ const BecomeModeler = (props) => {
             </div>
             <div className='container-os'>
                 <div className='become-modeler-data-os'>
-                    <h3>{props.sub_heading}</h3>
-                    <p>
+                    <h3 style={props.subHeadingStyle}>{props.sub_heading}</h3>
+                    <p style={props.paragrapStyle}>
                         {props.paragraph}
                     </p>
                 </div>

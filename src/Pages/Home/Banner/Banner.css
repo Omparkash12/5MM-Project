@@ -4,11 +4,11 @@
 }
 .Banner-section-os .banner-data-os {
   display: flex;
-  padding-top: 4.5rem;
+  margin-top: 4.5rem;
 }
 
 @media screen and (max-width:767px) {
   .Banner-section-os .banner-data-os {
-    padding-top: 3rem;
+    margin-top: 3rem;
   }
 }

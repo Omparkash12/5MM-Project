@@ -40,6 +40,9 @@
     border: 0;
     cursor: pointer;
 }
+.header-section-os .nav-links-os a:hover {
+    color: #fff;
+}
 
 .header-section-os {
     background: #1E2959;

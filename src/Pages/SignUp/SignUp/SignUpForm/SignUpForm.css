@@ -1,0 +1,263 @@
+/* Custom checkbox start */
+
+.container_checkbox {
+    display: block;
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    padding-left: 1.5rem;
+    cursor: pointer;
+}
+
+/* Hide the browser's default checkbox */
+.container_checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.container_checkbox .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+/* On mouse-over, add a grey background color */
+.container_checkbox:hover input~.checkmark {
+    background-color: #fff;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container_checkbox input:checked~.checkmark {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.container_checkbox .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container_checkbox input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container_checkbox .checkmark:after {
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid #777;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+/* Custom checkbox end */
+
+
+
+.signup-section-os {
+    background: #E2F9FE;
+}
+
+.signup-section-os .signup-all-data-os {
+    padding: 5rem 0;
+    margin-top: 4.5rem;
+}
+
+.signup-section-os .signup-data-os {
+    max-width: 613px;
+    width: 100%;
+    background: rgba(239, 239, 239, 0.47);
+    border-radius: 37px;
+    padding: 3rem;
+    margin: 0 auto;
+    box-shadow: 0px 1px 5px rgb(0 0 0 / 10%);
+}
+
+.signup-section-os .signup-heading-os h1 span {
+    color: #5AE1F9;
+}
+
+.signup-section-os .signup-heading-os h1 {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47.1385px;
+    line-height: 54px;
+    text-align: center;
+    color: #1E2959;
+    margin: 0;
+    padding-bottom: 1.5rem;
+}
+
+.signup-section-os .signup-data-os h3 {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1D1D1D;
+    margin: 0;
+    padding-bottom: 2rem;
+}
+
+.signup-section-os .singup-accounts-os {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+}
+
+.signup-section-os .singup-accounts-os a img {
+    max-width: 28px;
+    height: 28px;
+}
+
+.signup-section-os .singup-accounts-os a {
+    padding: 8px;
+    background: #FFFFFF;
+    border: 1px solid #D5D5D5;
+    box-shadow: 0px 1px 5px rgb(0 0 0 / 10%);
+    border-radius: 30px;
+    margin: 0.5rem;
+}
+
+.signup-section-os .signup-label-os {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+    padding-bottom: 8px;
+}
+
+.signup-section-os .signup-input-fields-os input {
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+    height: 55px;
+    padding: 1rem;
+}
+
+.signup-section-os .signup-input-fields-os {
+    padding-bottom: 1rem;
+}
+.signup-section-os .signup-forget-password-os {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 119.5%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.signup-section-os .signup-forget-password-os:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+.signup-section-os .signup-checkbox-os {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.signup-section-os .signup-continue-btn-os button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    border: none;
+    width: 100%;
+    background: #202C5C;
+    border-radius: 10px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup-section-os .signup-continue-btn-os {
+    padding-top: 2rem;
+}
+
+
+@media screen and (max-width:768px) {
+    .signup-section-os .signup-heading-os h1 {
+        font-size: 38px;
+        line-height: 42px;
+        padding-bottom: 1.5rem;
+    }
+    .signup-section-os .signup-data-os h3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .signup-section-os .signup-all-data-os {
+        padding: 4rem 0;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .signup-section-os .signup-data-os {
+        max-width: 100%;
+        width: 100%;
+        padding: 2rem;
+    }
+    .signup-section-os .signup-heading-os h1 {
+        font-size: 28px;
+        line-height: 32px;
+        padding-bottom: 1.5rem;
+    }
+    .signup-section-os .signup-data-os h3 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .signup-section-os .signup-all-data-os {
+        padding: 3rem 0;
+        margin-top: 2.5rem;
+    }
+    .signup-section-os .signup-label-os {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .signup-section-os .signup-input-fields-os input {
+        height: 45px;
+    }
+    .signup-section-os .signup-continue-btn-os button {
+        font-size: 16px;
+        line-height: 20px;
+        width: 100%;
+        height: 45px;
+    }
+    
+}

@@ -84,3 +84,50 @@
     padding-bottom: 1.5rem;
     width: 30%;
 }
+
+@media screen and (max-width:1024px) {
+    .newsletter-data-os p {
+        width: 60%;
+    }    
+}
+@media screen and (max-width:768px) {
+    .newsletter-input-os {
+        width: 100%;
+    }
+    .newsletter-data-os {
+        padding: 4rem 0;
+    } 
+}
+@media screen and (max-width:576px) {  
+    .newsletter-input-os {
+        width: 100%;
+        height: 55px;
+    }
+    .newsletter-input-os button {
+        font-size: 14px;
+        line-height: 20px;
+        width: 30%;
+        height: 55px;
+    }
+    .newsletter-input-os input {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 1rem 4px;
+    }
+    .newsletter-input-os input::placeholder {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .newsletter-data-os h3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .newsletter-data-os p {
+        width: 100%;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .newsletter-data-os {
+        padding: 3rem 0;
+    }
+}
