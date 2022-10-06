@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/5MM-Project/static/css/main.7f0953d9.css",
+    "main.js": "/5MM-Project/static/js/main.01eeb09b.js",
+    "static/js/787.38e3524d.chunk.js": "/5MM-Project/static/js/787.38e3524d.chunk.js",
+    "static/media/banner-gif.gif": "/5MM-Project/static/media/banner-gif.3e182af4654a94ba5dc2.gif",
+    "static/media/afterReg-banner-img.jpg": "/5MM-Project/static/media/afterReg-banner-img.d695f9f1364f39f6223d.jpg",
+    "static/media/fb.svg": "/5MM-Project/static/media/fb.c95273d6f16196ca5e706f5746adbf3a.svg",
+    "static/media/power-in-number.png": "/5MM-Project/static/media/power-in-number.6e578c191b78de9e6893.png",
+    "static/media/YourOwnBetting-image.png": "/5MM-Project/static/media/YourOwnBetting-image.645054d464e04c830486.png",
+    "static/media/leaderboard-img-6.png": "/5MM-Project/static/media/leaderboard-img-6.d63d9fb1c7b1fe529299.png",
+    "static/media/google.svg": "/5MM-Project/static/media/google.367fb56c385005389f632f4d61f9045f.svg",
+    "static/media/leaderboard-img-2.png": "/5MM-Project/static/media/leaderboard-img-2.180d2a0aebe77c362ac8.png",
+    "static/media/leaderboard-img-5.png": "/5MM-Project/static/media/leaderboard-img-5.fc3941a1fe36cdfa4331.png",
+    "static/media/leaderboard-img-8.png": "/5MM-Project/static/media/leaderboard-img-8.8e5c8e4d357630593a01.png",
+    "static/media/leaderboard-img-7.png": "/5MM-Project/static/media/leaderboard-img-7.b0d43dc8e2c21889e5cb.png",
+    "static/media/become-modeler-bg.png": "/5MM-Project/static/media/become-modeler-bg.dbff282b9ef830dfc7ad.png",
+    "static/media/leaderboard-img-4.png": "/5MM-Project/static/media/leaderboard-img-4.d61ea4b70a8b73f56c1f.png",
+    "static/media/leaderboard-img-3.png": "/5MM-Project/static/media/leaderboard-img-3.35edb6e417615b78ec59.png",
+    "static/media/leaderboard-img-1.png": "/5MM-Project/static/media/leaderboard-img-1.e8bdf296fa95c7136aa2.png",
+    "static/media/apple.svg": "/5MM-Project/static/media/apple.fedac7b4d0df76cb58e85ce5964c2594.svg",
+    "static/media/register-edit-icon.svg": "/5MM-Project/static/media/register-edit-icon.521afbddb127dc0fed8c35541c25a6e6.svg",
+    "static/media/twitter.svg": "/5MM-Project/static/media/twitter.96ecaf97fb9dd2e3510645bfbee5a4cd.svg",
+    "index.html": "/5MM-Project/index.html",
+    "static/media/benefits-tick.svg": "/5MM-Project/static/media/benefits-tick.a41085e116ee69bbda4a5bfb7468674e.svg",
+    "static/media/accordion_arrow.svg": "/5MM-Project/static/media/accordion_arrow.ef8606990197d5dc2fd4.svg",
+    "static/media/heading-line.svg": "/5MM-Project/static/media/heading-line.3c2e5e1cdf5d67ab1fd2e0e6a8d12dad.svg",
+    "main.7f0953d9.css.map": "/5MM-Project/static/css/main.7f0953d9.css.map",
+    "main.01eeb09b.js.map": "/5MM-Project/static/js/main.01eeb09b.js.map",
+    "787.38e3524d.chunk.js.map": "/5MM-Project/static/js/787.38e3524d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f0953d9.css",
+    "static/js/main.01eeb09b.js"
+  ]
+}
